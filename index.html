@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Geography</h1>
+    </header>
+    <form action="#">
+        <label for="name">What is your name ?</label>
+        <br>
+        <input type="text" name="name" />
+        <br>
+        <br>
+        <fieldset class="red">
+
+
+            <legend>Which is not an American State ?</legend>
+
+            <label for="state">Puerto Rico</label>
+            <input type="radio" name="state" value="Puerto Rico" />
+
+            <label for="state">New York</label>
+            <input type="radio" name="state" value="New York" />
+
+            <label for="state">Washington</label>
+            <input type="radio" name="state" value="Washington" />
+
+            <label for="state">Texas</label>
+            <input type="radio" name="state" value="Texas" />
+
+
+
+        </fieldset>
+        <br>
+        <fieldset class="red">
+            <legend>What is your favorite state and why? </legend>
+            <label for="fav-state"></label>
+            <textarea name="fav-state" placeholder="Favorite State and why..."></textarea>
+
+
+
+
+        </fieldset>
+        <br>
+        <fieldset class="white">
+            <legend>Which states are on the Pacific Coast?</legend>
+            <label for="pacific-state">Oregon</label>
+            <input type="checkbox" value="or" name="pacific-state">
+
+            <br>
+            <label for="pacific-state">South Dakota</label>
+            <input type="checkbox" value="sd" name="pacific-state">
+            <br>
+            <label for="pacific-state">Washington</label></label>
+            <input type="checkbox" value="wa" name="pacific-state">
+            <br>
+            <label for="pacific-state">Califorina</label></label>
+            <input type="checkbox" value="ca" name="pacific-state">
+        </fieldset>
+        <br>
+        <fieldset class="blue">
+            <legend>Which state borders another country?</legend>
+            <label for="border-state">New Jersey</label>
+            <input type="radio" value="nj" name="border-state">
+
+            <br>
+            <label for="border-state">West Virginia</label>
+            <input type="radio" value="wv" name="border-state">
+            <br>
+            <label for="border-state">Delaware</label>
+            <input type="radio" value="de" name="border-state">
+            <br>
+            <label for="border-state">Califorina</label>
+            <input type="radio" value="ca" name="border-state">
+        </fieldset>
+        <br>
+        <fieldset class="blue">
+            <label for="best-state">Which is the best state?</label>
+            <br>
+
+            <select name="best-state">
+                <option value="placeholder">State...</option>
+                <option value="NY">New York</option>
+                <option value="TX">Texas</option>
+                <option value="SD">South Dakota</option>
+                <option value="CA">Califorina</option>
+            </select>
+
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Fire Away!" />
+
+
+    </form>
+</body>
+
+</html>
